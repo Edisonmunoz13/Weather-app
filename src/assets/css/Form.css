@@ -1,0 +1,12 @@
+.btn-primary {
+  background-color: #3b559c;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-control {
+  width: max-content;
+  background-color: rgb(48, 50, 51);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
