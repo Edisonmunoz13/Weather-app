@@ -19,12 +19,12 @@ const WeatherPanel = () => {
   const getLocation = async (loc) => {
     setLoading(true);
     setLocation(loc);
+    console.log(location);
 
     urlWeather = urlWeather + cityUrl + loc;
 
     await fetch(urlWeather)
       .then((response) => {
-        if (!response.ok) throw { response };
         return response.json();
       })
       .then((weatherData) => {
@@ -41,7 +41,6 @@ const WeatherPanel = () => {
 
     await fetch(urlForecast)
       .then((response) => {
-        if (!response.ok) throw { response };
         return response.json();
       })
       .then((forecastData) => {
