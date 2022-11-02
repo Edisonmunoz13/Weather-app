@@ -59,9 +59,7 @@ const Card = ({ loadingData, showData, weather, forecast }) => {
 
   return (
     <div className="mt-5">
-      {
-        //console.log(showData + "soy la Data")
-      }
+      {console.log(showData + "soy la Data")}
 
       {showData === true ? (
         <div className="container">
