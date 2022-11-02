@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "../assets/css/Form.css";
 
 const Form = ({ newLocation }) => {
