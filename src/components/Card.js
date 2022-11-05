@@ -85,15 +85,15 @@ const Card = ({ loadingData, showData, weather, forecast }) => {
                 <div className="card-body text-start mt-2">
                   <h5 className="card-text">
                     Temperatura máxima:{" "}
-                    {(weather.main.temp_max - 273.15).toFixed(1)} °C
+                    {(weather.main.temp_max - 273.15).toFixed(0)} °C
                   </h5>
                   <h5 className="card-text">
                     Temperatura máxima:{" "}
-                    {(weather.main.temp_min - 273.15).toFixed(1)} °C
+                    {(weather.main.temp_min - 273.15).toFixed(0)} °C
                   </h5>
                   <h5 className="card-text">
                     Sensación térmica:{" "}
-                    {(weather.main.feels_like - 273.15).toFixed(1)} °C
+                    {(weather.main.feels_like - 273.15).toFixed(0)} °C
                   </h5>
                   <h5 className="card-text">
                     Humedad: {weather.main.humidity} %
